@@ -5,17 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Park Nakyeong | RCMP</title>
     
-    <!-- React & ReactDOM -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
     
-    <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
@@ -63,7 +59,6 @@
     <script type="text/babel">
         const { useState, useEffect } = React;
 
-        // --- Standard SVG Icons for Stability ---
         const Icons = {
             ChevronDown: () => <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="animate-bounce opacity-50"><path d="m7 13 5 5 5-5"/><path d="m7 6 5 5 5-5"/></svg>,
             BarChart: () => <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>,
@@ -128,7 +123,7 @@
                     <div className="mb-16 text-center">
                         <h2 className="text-4xl font-bold tracking-tight mb-4">Core Competencies</h2>
                         <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
-                            실시간 채널 변화에 따른 Queue Time과 Abandon Rate의 상관관계를 분석하며,<br/>
+                            실시간 채널 변화에 따른 Queue Time과 Abandon Rate의 상관관계를 이해하며,<br/>
                             최상의 고객 경험을 위한 최적의 균형을 유지합니다.
                         </p>
                     </div>
@@ -140,7 +135,7 @@
                                 </div>
                                 <h3 className="text-2xl font-bold mb-2">Data-Driven Improvement</h3>
                                 <p className="text-gray-600 leading-relaxed mb-4">
-                                    Dialog 분석 지표를 활용해 상담 트렌드를 식별합니다. Conversion Path 단축과 Customer Effort 감소를 통해 실질적인 지표 개선을 이끌어냅니다.
+                                    Dialog 분석 지표를 활용해 상담 트렌드를 식별합니다. Conversion Path 단축과 Customer Effort 감소를 통해 실질적인 지표 개선을 생각합니다.
                                 </p>
                             </div>
                         </div>
@@ -150,7 +145,7 @@
                             </div>
                             <h3 className="text-2xl font-bold mb-2">Real-time Monitoring</h3>
                             <p className="text-gray-400 text-sm leading-relaxed">
-                                다각화된 채널 모니터링을 통해 운영 리소스를 효율적으로 배분하며, Duty Rotation 부담을 최소화하는 안정적인 운영을 지향합니다.
+                                운영 리소스를 효율적으로 배분하며, 부담을 최소화하는 안정적인 운영을 지향합니다.
                             </p>
                         </div>
                         <div className="bg-gray-50 rounded-3xl p-8 border border-gray-100">
@@ -159,7 +154,7 @@
                             </div>
                             <h3 className="text-xl font-bold mb-2">Flexible Scheduling</h3>
                             <p className="text-gray-600 text-sm leading-relaxed">
-                                동료들과의 유연한 Schedule Swap과 탄력적인 인력 운영을 통해 돌발 상황에도 흔들림 없는 지표 방어를 수행합니다.
+                                동료들과의 유연한 Schedule Swap과 탄력적인 인력 운영을 통해 돌발 상황에도 흔들림 없는 방어를 수행합니다.
                             </p>
                         </div>
                         <div className="bg-blue-50 rounded-3xl p-8 border border-blue-100">
@@ -168,7 +163,7 @@
                             </div>
                             <h3 className="text-xl font-bold mb-2">Fast Adapter</h3>
                             <p className="text-gray-600 text-sm leading-relaxed">
-                                PIR, Open messaging 등 신규 시스템 도입 시 주도적으로 테스트를 진행하고 현장 중심의 피드백을 공유하여 안정적인 정착을 돕습니다.
+                                PIR, Open messaging 등 신규 시스템 도입 시 주도적으로 테스트를 진행하고 안정적인 정착을 돕습니다.
                             </p>
                         </div>
                         <div className="col-span-1 bg-white rounded-3xl p-8 border border-gray-200 hover:border-gray-300 transition-all group flex flex-col justify-between">
@@ -178,10 +173,10 @@
                                 </div>
                                 <h3 className="text-xl font-bold mb-1">Tech Experience</h3>
                                 <p className="text-gray-500 text-xs mb-4">CS Support Tooling</p>
-                                <p className="text-gray-600 text-sm">팀 이벤트 스코어 실시간 확인 시스템 등 운영 지원을 위한 웹 개발 역량을 보유하고 있습니다.</p>
+                                <p className="text-gray-600 text-sm">어떠한 운영체제든 다양한 업무 툴에 친숙합니다.</p>
                             </div>
                             <a href="https://namu7441.github.io/nakyeong.github.io" target="_blank" className="text-sm font-semibold text-blue-600 mt-4 inline-block">
-                                View Work →
+                                CS Journey →
                             </a>
                         </div>
                     </div>
@@ -198,7 +193,7 @@
                     <p className="text-lg md:text-xl text-gray-500 leading-relaxed font-light">
                         비즈니스 이해도와 협업 경험을 바탕으로,<br />
                         <span className="text-black font-medium">Customer</span>와 <span className="text-black font-medium">Co-worker</span>가<br />
-                        모두 신뢰할 수 있는 최적의 운영 지표를 만듭니다.
+                        신뢰할 수 있는 최적의 운영 지표를 만들겠습니다.
                     </p>
                 </div>
             </section>
